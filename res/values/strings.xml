@@ -799,11 +799,14 @@
     <string name="dump_nav" translatable="false">Dump navigation cache</string>
 
     <!-- The default homepage. -->
-    <string name="homepage_base" translatable="false">
-        https://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="homepage_base" translatable="false">http://m.baidu.com/?from=1677a</string>
 
     <!-- Bookmarks -->
     <string-array name="bookmarks" translatable="false">
+        <item>MFunz Android Forums</item>
+        <item>http://bbs.mfunz.com</item>
+        <item>Baidu</item>
+        <item>http://m.baidu.com/?from=1677a</item>
         <item>Google</item>
         <item>http://www.google.com/</item>
         <item>Picasa</item>
