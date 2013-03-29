@@ -1683,6 +1683,10 @@ public class Controller
                 findOnPage();
                 break;
 
+            case R.id.exit_menu_id:
+                mActivity.finish();
+                break;
+
             case R.id.save_snapshot_menu_id:
                 final Tab source = getTabControl().getCurrentTab();
                 if (source == null) break;

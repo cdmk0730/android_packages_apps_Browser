@@ -419,4 +419,9 @@
 
     <!-- Content description for home screen button [CHAR LIMIT=NONE] -->
     <string name="accessibility_button_homescreen">主屏幕</string>
+
+    <!-- MoKee Start Add -->
+    <!-- Quit button -->
+    <string name="menu_exit">"退出"</string>
+    <!-- MoKee Start End -->
 </resources>
