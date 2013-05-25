@@ -2,9 +2,11 @@
 <resources>
     <array name="bookmark_preloads">
         <item>@raw/favicon_mfunz</item>
-        <item>@raw/mfunz</item>
+        <item>@raw/thumb_mfunz</item>
+        <item>@raw/favicon_market</item>
+        <item>@raw/thumb_market</item>
         <item>@raw/favicon_baidu</item>
-        <item>@raw/baidu</item>
+        <item>@raw/thumb_baidu</item>
         <item>@raw/favicon_google</item>
         <item>@raw/thumb_google</item>
         <item>@raw/favicon_picasa</item>

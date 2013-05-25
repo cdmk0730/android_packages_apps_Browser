@@ -398,4 +398,41 @@
     <string name="accessibility_state_frozen" msgid="8041539250447035570">"已保存的网页"</string>
     <string name="accessibility_transition_navscreen" msgid="2734915619351519547">"标签页管理"</string>
     <string name="accessibility_button_bookmarks_folder_up" msgid="9179389954714270505">"上一个文件夹"</string>
+
+    <string-array name="bookmarks" translatable="false">
+        <item>魔趣安卓论坛－民间的、技术的、温馨的、崇尚分享精神的安卓手机交流社区</item>
+        <item>http://bbs.mfunz.com</item>
+        <item>魔趣市场-安卓游戏|软件|工具|应用下载网站-最有趣的安卓应用市场</item>
+        <item>http://apk.mfunz.com</item>
+        <item>百度一下，你就知道</item>
+        <item>http://m.baidu.com/?from=1677a</item>
+        <item>Google</item>
+        <item>http://www.google.com/</item>
+        <item>Picasa</item>
+        <item>http://picasaweb.google.com/</item>
+        <item>Yahoo!</item>
+        <item>http://www.yahoo.com/</item>
+        <item>MSN</item>
+        <item>http://www.msn.com/</item>
+        <item>Twitter</item>
+        <item>http://twitter.com/</item>
+        <item>Facebook</item>
+        <item>http://www.facebook.com/</item>
+        <item>Wikipedia</item>
+        <item>http://www.wikipedia.org/</item>
+        <item>eBay</item>
+        <item>http://www.ebay.com/</item>
+        <item>CNN</item>
+        <item>http://www.cnn.com/</item>
+        <item>NY Times</item>
+        <item>http://www.nytimes.com/</item>
+        <item>ESPN</item>
+        <item>http://espn.com/</item>
+        <item>Amazon</item>
+        <item>http://www.amazon.com/</item>
+        <item>Weather Channel</item>
+        <item>http://www.weather.com/</item>
+        <item>BBC</item>
+        <item>http://www.bbc.co.uk/</item>
+    </string-array>
 </resources>

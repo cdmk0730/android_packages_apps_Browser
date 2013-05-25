@@ -796,8 +796,10 @@
 
     <!-- Bookmarks -->
     <string-array name="bookmarks" translatable="false">
-        <item>MFunz Android Forums</item>
+        <item>MFUNZ Android Forums</item>
         <item>http://bbs.mfunz.com</item>
+        <item>MFUNZ Market</item>
+        <item>http://apk.mfunz.com</item>
         <item>Baidu</item>
         <item>http://m.baidu.com/?from=1677a</item>
         <item>Google</item>
