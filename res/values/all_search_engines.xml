@@ -120,7 +120,7 @@ http://www.opensearch.org/Specifications/OpenSearch/1.1/Draft_4#OpenSearch_1.1_p
     <item>&#x767e;&#x5ea6;</item>
     <item>baidu.com</item>
     <item>http://www.baidu.com/favicon.ico</item>
-    <item>http://www.baidu.com/s?wd={searchTerms}</item>
+    <item>http://www.baidu.com/s?wd={searchTerms}&amp;from=1677a</item>
     <item>GB2312</item>
     <item></item>
   </string-array>
