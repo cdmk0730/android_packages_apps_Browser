@@ -16,4 +16,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Quit button -->
     <string name="menu_exit">"退出"</string>
+    <string name="dialog_download_title">下载</string>
+    <string name="dialog_download_message">开始下载:\n%1$s\n文件大小:%2$s</string>
 </resources>
