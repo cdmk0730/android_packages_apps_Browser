@@ -17,5 +17,5 @@
     <!-- Quit button -->
     <string name="menu_exit">Exit</string>
     <string name="dialog_download_title">Download</string>
-	<string name="dialog_download_message">Do you want to start download:\n%1$s \nFileSize:%2$s</string>
+    <string name="dialog_download_message">Do you want to start download:\n%1$s \nFileSize:%2$s</string>
 </resources>
