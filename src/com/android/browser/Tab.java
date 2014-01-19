@@ -1079,7 +1079,7 @@ class Tab implements PictureListener {
                 new AlertDialog.Builder(mContext).
                         setTitle(mContext.getResources().getString(R.string.dialog_download_title)).
                         setMessage(mContext.getResources()
-                                .getString(R.string.dialog_download_message,fileName,MoKeeUtils.formetFileSize(contentLength))).
+                                .getString(R.string.dialog_download_message,fileName,MoKeeUtils.formatFileSize(contentLength))).
                         setPositiveButton(mContext.getResources().getString(R.string.ok),
                                 new OnClickListener() {
 
