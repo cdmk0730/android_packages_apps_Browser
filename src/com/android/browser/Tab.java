@@ -32,6 +32,7 @@ import android.graphics.Paint;
 import android.graphics.Picture;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
+import android.mokee.util.MoKeeUtils;
 import android.net.Uri;
 import android.net.http.SslError;
 import android.os.Bundle;
@@ -69,11 +70,14 @@ import android.app.Dialog;
 import android.content.DialogInterface.OnClickListener;
 import com.android.browser.TabControl.OnThumbnailUpdatedListener;
 import com.android.browser.homepages.HomeProvider;
+import com.android.browser.preferences.GeneralPreferencesFragment;
 import com.android.browser.provider.SnapshotProvider.Snapshots;
-import android.mokee.util.MoKeeUtils;
+import com.google.common.io.ByteStreams;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
 import java.util.LinkedList;
@@ -156,6 +160,8 @@ class Tab implements PictureListener {
     // before onPageFinsihed)
     private boolean mInPageLoad;
     private boolean mDisableOverrideUrlLoading;
+    // If true, the current page is the most visited page
+    private boolean mInMostVisitedPage;
     // The last reported progress of the current page
     private int mPageLoadProgress;
     // The time the load started, used to find load page time
@@ -389,6 +395,16 @@ class Tab implements PictureListener {
             }
             syncCurrentState(view, url);
             mWebViewController.onPageFinished(Tab.this);
+
+            if (view.getUrl().equals(HomeProvider.MOST_VISITED_URL)) {
+                if (!mInMostVisitedPage) {
+                    loadUrl(HomeProvider.MOST_VISITED, null);
+                    mInMostVisitedPage = true;
+                }
+                view.clearHistory();
+            } else {
+                mInMostVisitedPage = false;
+            }
         }
 
         // return true if want to hijack the url to let another app to handle it
@@ -580,14 +596,6 @@ class Tab implements PictureListener {
                 final HttpAuthHandler handler, final String host,
                 final String realm) {
             mWebViewController.onReceivedHttpAuthRequest(Tab.this, view, handler, host, realm);
-        }
-
-        @Override
-        public WebResourceResponse shouldInterceptRequest(WebView view,
-                String url) {
-            WebResourceResponse res = HomeProvider.shouldInterceptRequest(
-                    mContext, url);
-            return res;
         }
 
         @Override
@@ -1781,7 +1789,20 @@ class Tab implements PictureListener {
             mInPageLoad = true;
             mCurrentState = new PageState(mContext, false, url, null);
             mWebViewController.onPageStarted(this, mMainView, null);
-            mMainView.loadUrl(url, headers);
+            WebResourceResponse res = HomeProvider.shouldInterceptRequest(mContext, url);
+            if (res != null) {
+                try {
+                    String data = readWebResource(res).toString();
+                    mInMostVisitedPage = true;
+                    mMainView.loadDataWithBaseURL(url, data, res.getMimeType(), res.getEncoding(),
+                            HomeProvider.MOST_VISITED_URL);
+                } catch (IOException io) {
+                    // Fallback to default load handling
+                    mMainView.loadUrl(url, headers);
+                }
+            } else {
+                mMainView.loadUrl(url, headers);
+            }
         }
     }
 
@@ -1927,5 +1948,20 @@ class Tab implements PictureListener {
             // sub-resource.
             setSecurityState(SecurityState.SECURITY_STATE_MIXED);
         }
+    }
+
+    private StringBuilder readWebResource(WebResourceResponse response) throws IOException {
+        StringBuilder sb = new StringBuilder();
+        InputStream is = response.getData();
+        try {
+            byte[] data = new byte[512];
+            int read = 0;
+            while ((read = is.read(data, 0, 512)) != -1) {
+                sb.append(new String(data, 0, read));
+            }
+        } finally {
+            is.close();
+        }
+        return sb;
     }
 }
