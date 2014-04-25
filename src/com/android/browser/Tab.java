@@ -32,7 +32,6 @@ import android.graphics.Paint;
 import android.graphics.Picture;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
-import android.mokee.util.MoKeeUtils;
 import android.net.Uri;
 import android.net.http.SslError;
 import android.os.Bundle;
@@ -73,6 +72,8 @@ import com.android.browser.homepages.HomeProvider;
 import com.android.browser.preferences.GeneralPreferencesFragment;
 import com.android.browser.provider.SnapshotProvider.Snapshots;
 import com.google.common.io.ByteStreams;
+
+import org.mokee.util.MoKeeUtils;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
