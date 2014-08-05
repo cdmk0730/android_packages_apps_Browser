@@ -53,7 +53,7 @@
             android:id="@+id/fullscreen_menu_id"
             android:checkable="true"
             android:title="@string/pref_lab_fullscreen" />
-        <item 
+        <item
             android:id="@+id/exit_menu_id"
             android:alphabeticShortcut="e"
             android:title="@string/menu_exit" />
