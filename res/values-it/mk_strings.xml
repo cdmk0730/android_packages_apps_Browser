@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_exit">Вийти</string>
-  <string name="dialog_download_title">Завантажити</string>
-  <string name="dialog_download_message">Бажаєте завантажити :\n%1$s \n Розмір файлу: %2$s</string>
+  <string name="menu_exit">Esci</string>
+  <string name="dialog_download_title">scarica</string>
+  <string name="dialog_download_message">Si desidera avviare download:\n%1$s \nFileSize:%2$s</string>
 </resources>
