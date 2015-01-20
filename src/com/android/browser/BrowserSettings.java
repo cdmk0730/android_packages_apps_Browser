@@ -60,6 +60,8 @@ import android.util.Log;
 import android.net.WebAddress;
 import android.widget.Toast;
 
+import org.mokee.util.MoKeeUtils;
+
 /**
  * Class for managing settings
  */
@@ -762,7 +764,11 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
     // -----------------------------
 
     public String getSearchEngineName() {
-        return mPrefs.getString(PREF_SEARCH_ENGINE, SearchEngine.GOOGLE);
+        if (MoKeeUtils.isChineseLanguage() && !MoKeeUtils.isTWLanguage()) {
+            return mPrefs.getString(PREF_SEARCH_ENGINE, SearchEngine.BAIDU);
+        } else {
+            return mPrefs.getString(PREF_SEARCH_ENGINE, SearchEngine.GOOGLE);
+        }
     }
 
     public int getUserAgent() {

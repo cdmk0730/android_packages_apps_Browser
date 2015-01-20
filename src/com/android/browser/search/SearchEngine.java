@@ -27,6 +27,9 @@ public interface SearchEngine {
     // Used if the search engine is Google
     static final String GOOGLE = "google";
 
+    // Used if the search engine is Baidu
+    static final String BAIDU = "baidu";
+
     /**
      * Gets the unique name of this search engine.
      */
