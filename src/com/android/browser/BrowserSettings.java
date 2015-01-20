@@ -22,6 +22,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
+import android.mokee.utils.MoKeeUtils;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Build;
@@ -609,7 +610,7 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
     // -----------------------------
 
     public String getSearchEngineName() {
-        return mPrefs.getString(PREF_SEARCH_ENGINE, SearchEngine.GOOGLE);
+        return mPrefs.getString(PREF_SEARCH_ENGINE, MoKeeUtils.isSupportLanguage(true) ? SearchEngine.BAIDU : SearchEngine.GOOGLE);
     }
 
     public boolean allowAppTabs() {
