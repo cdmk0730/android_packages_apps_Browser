@@ -613,6 +613,10 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
         return mPrefs.getString(PREF_SEARCH_ENGINE, MoKeeUtils.isSupportLanguage(true) ? SearchEngine.BAIDU : SearchEngine.GOOGLE);
     }
 
+    public int getUserAgent() {
+        return Integer.parseInt(mPrefs.getString(PREF_USER_AGENT, "0"));
+    }
+
     public boolean allowAppTabs() {
         return mPrefs.getBoolean(PREF_ALLOW_APP_TABS, false);
     }
@@ -693,13 +697,6 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
             return false;
         }
         return mPrefs.getBoolean(PREF_ENABLE_HARDWARE_ACCEL_SKIA, false);
-    }
-
-    public int getUserAgent() {
-        if (!isDebugEnabled()) {
-            return 0;
-        }
-        return Integer.parseInt(mPrefs.getString(PREF_USER_AGENT, "0"));
     }
 
     // -----------------------------
