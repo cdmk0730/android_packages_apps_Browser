@@ -156,7 +156,7 @@ public class NavScreen extends RelativeLayout
         mNewTabFab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openNewTab();
+                openNewTab(false);
             }
         });
     }
