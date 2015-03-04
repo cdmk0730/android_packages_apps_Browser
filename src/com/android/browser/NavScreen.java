@@ -153,7 +153,8 @@ public class NavScreen extends RelativeLayout
             }
         });
         mNewTabFab = (ImageView) findViewById(R.id.floating_action_button);
-        mNewTabFab.setOnClickListener(new View.OnClickListener() {
+        mNewTabFab.setOnClickListener(
+        new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openNewTab(false);
@@ -188,9 +189,9 @@ public class NavScreen extends RelativeLayout
     private void openNewTab(boolean incognito) {
         // need to call openTab explicitely with setactive false
         final Tab tab = incognito ?
-                    mUiController.openIncognitoTab() :
-                    mUiController.openTab(BrowserSettings.getInstance().getHomePage(),
-                                           false, false, false);
+                mUiController.openIncognitoTab() :
+                mUiController.openTab(BrowserSettings.getInstance().getHomePage(),
+                    false, false, false);
         if (tab != null) {
             mUiController.setBlockEvents(true);
             final int tix = mUi.mTabControl.getTabPosition(tab);
