@@ -805,37 +805,8 @@
         <item>Baidu</item>
         <item>http://m.baidu.com/?from=1677a</item>
         <item>Google</item>
-        <item>http://www.google.com/</item>
-        <item>Picasa</item>
-        <item>http://picasaweb.google.com/</item>
-        <item>Yahoo!</item>
-        <item>http://www.yahoo.com/</item>
-        <item>MSN</item>
-        <item>http://www.msn.com/</item>
-        <item>Twitter</item>
-        <item>http://twitter.com/</item>
-        <item>Facebook</item>
-        <item>http://www.facebook.com/</item>
-        <item>Wikipedia</item>
-        <item>http://www.wikipedia.org/</item>
-        <item>eBay</item>
-        <item>http://www.ebay.com/</item>
-        <item>CNN</item>
-        <item>http://www.cnn.com/</item>
-        <item>NY Times</item>
-        <item>http://www.nytimes.com/</item>
-        <item>ESPN</item>
-        <item>http://espn.com/</item>
-        <item>Amazon</item>
-        <item>http://www.amazon.com/</item>
-        <item>Weather Channel</item>
-        <item>http://www.weather.com/</item>
-        <item>BBC</item>
-        <item>http://www.bbc.co.uk/</item>
+        <item>https://www.google.com</item>
     </string-array>
-
-    <!-- Bookmark name for Picasa website -->
-    <string name="picasa" translatable="false">Picasa</string>
 
     <!-- The description of the suggestion that lets the user search the web for the query currently
          in the text field. -->
@@ -1009,8 +980,6 @@
     <string name="accessibility_button_uaswitch">Switch user agent</string>
     <!-- Content description for go button [CHAR LIMIT=NONE] -->
     <string name="accessibility_button_go">Go</string>
-    <!-- Content description for home screen button [CHAR LIMIT=NONE] -->
-    <string name="accessibility_button_homescreen">Home screen</string>
 
     <!-- Content description for tab switcher button [CHAR LIMIT=NONE] -->
     <string name="accessibility_button_navscreen">Page manager</string>
