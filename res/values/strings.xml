@@ -805,7 +805,7 @@
         <item>Baidu</item>
         <item>http://m.baidu.com/?from=1677a</item>
         <item>Google</item>
-        <item>https://www.google.com</item>
+        <item>http://www.google.com</item>
     </string-array>
 
     <!-- The description of the suggestion that lets the user search the web for the query currently
