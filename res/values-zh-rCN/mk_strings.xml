@@ -19,5 +19,5 @@
   <string name="pref_content_download_confirmation">下载确认</string>
   <string name="pref_content_download_confirmation_summary">开始下载前显示提示</string>
   <string name="dialog_download_title">下载</string>
-  <string name="dialog_download_message">开始下载:\n%1$s\n文件大小: %2$s</string>
+  <string name="dialog_download_message">开始下载:\n%1$s\n\n文件大小: %2$s</string>
 </resources>

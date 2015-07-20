@@ -83,7 +83,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
 import java.security.Principal;
-import java.text.DecimalFormat;
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.UUID;
