@@ -163,7 +163,7 @@ public class PageDialogsHandler {
         AlertDialog.Builder alertDialogBuilder =
             new AlertDialog.Builder(mContext)
             .setTitle(R.string.page_info)
-            .setIcon(android.R.drawable.ic_dialog_info)
+            .setIcon(R.drawable.ic_home_info_dark)
             .setView(pageInfoView)
             .setPositiveButton(
                 R.string.ok,
