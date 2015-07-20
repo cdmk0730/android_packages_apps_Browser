@@ -621,6 +621,10 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
         return mPrefs.getBoolean(PREF_OPEN_IN_BACKGROUND, false);
     }
 
+    public boolean downloadConfirmation() {
+        return mPrefs.getBoolean(PREF_DOWNLOAD_CONFIRMATION, true);
+    }
+
     public boolean enableJavascript() {
         return mPrefs.getBoolean(PREF_ENABLE_JAVASCRIPT, true);
     }

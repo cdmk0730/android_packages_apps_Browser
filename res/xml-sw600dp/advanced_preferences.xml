@@ -39,6 +39,12 @@
             android:summary="@string/pref_content_open_in_background_summary" />
 
     <SwitchPreference
+            android:key="download_confirmation"
+            android:defaultValue="true"
+            android:title="@string/pref_content_download_confirmation"
+            android:summary="@string/pref_content_download_confirmation_summary" />
+
+    <SwitchPreference
             android:key="enable_javascript"
             android:defaultValue="true"
             android:title="@string/pref_content_javascript" />

@@ -19,4 +19,10 @@
     <!-- Exit button -->
     <string name="menu_exit">Exit</string>
 
+    <!-- Download confirmation -->
+    <string name="pref_content_download_confirmation">Download confirmation</string>
+    <string name="pref_content_download_confirmation_summary">Show a prompt before starting downloads</string>
+    <string name="dialog_download_title">Download</string>
+    <string name="dialog_download_message">Do you want to start downloading:\n%1$s \nFile size: %2$s</string>
+
 </resources>
