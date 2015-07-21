@@ -1173,6 +1173,12 @@ class Tab implements PictureListener {
                     final long contentLength) {
                 if (mSettings.downloadConfirmation()) {
                     String fileName = URLUtil.guessFileName(url, contentDisposition, mimetype);
+                    String fileSize;
+                    if (contentLength <= 0) {
+                        fileSize = "-";
+                    } else {
+                        fileSize = Formatter.formatFileSize(mContext, contentLength);
+                    }
                     new AlertDialog.Builder(mContext)
                             .setTitle(
                                     mContext.getResources().getString(
@@ -1180,7 +1186,7 @@ class Tab implements PictureListener {
                             .setMessage(
                                     mContext.getResources().getString(
                                             R.string.dialog_download_message,
-                                            fileName, Formatter.formatFileSize(mContext, contentLength)))
+                                            fileName, fileSize))
                             .setPositiveButton(mContext.getResources().getString(R.string.ok),
                                     new OnClickListener() {
                                         @Override
