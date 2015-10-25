@@ -15,9 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_exit">Излаз</string>
-  <string name="pref_content_download_confirmation">Потврда преузимања</string>
-  <string name="pref_content_download_confirmation_summary">Приказ потврде пре почетка преузимања</string>
-  <string name="dialog_download_title">Преузми</string>
-  <string name="dialog_download_message">Започети преузимање:\n%1$s\n\nфајла величине: %2$s</string>
+  <string name="menu_exit">خروج</string>
+  <string name="pref_content_download_confirmation">تأكيد التحميل</string>
+  <string name="pref_content_download_confirmation_summary">اعرض الموجه قبل البدء بالتحميل</string>
+  <string name="dialog_download_title">تحميل</string>
+  <string name="dialog_download_message">هل تريد بدء تحميل: حجم الملف \n%1$s\n\nFile: %2$s</string>
 </resources>

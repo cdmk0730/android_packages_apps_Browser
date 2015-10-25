@@ -16,4 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="menu_exit">Выход</string>
+  <string name="pref_content_download_confirmation">Подтверждение загрузки</string>
+  <string name="pref_content_download_confirmation_summary">Показать запрос перед началом загрузки</string>
+  <string name="dialog_download_title">Загрузить</string>
+  <string name="dialog_download_message">Вы хотите загрузить: \n%1$s\n\nРазмер файла: %2$s</string>
 </resources>

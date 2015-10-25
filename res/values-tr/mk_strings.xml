@@ -15,9 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_exit">Излаз</string>
-  <string name="pref_content_download_confirmation">Потврда преузимања</string>
-  <string name="pref_content_download_confirmation_summary">Приказ потврде пре почетка преузимања</string>
-  <string name="dialog_download_title">Преузми</string>
-  <string name="dialog_download_message">Започети преузимање:\n%1$s\n\nфајла величине: %2$s</string>
+  <string name="menu_exit">Çıkış</string>
+  <string name="pref_content_download_confirmation">Onayı indir</string>
+  <string name="pref_content_download_confirmation_summary">İndirme işlemi başlamadan istemi göster</string>
+  <string name="dialog_download_title">İndir</string>
+  <string name="dialog_download_message">\n%1$s\n\n\'nın indirilmesini istiyor musunuz? Dosya boyutu: %2$s</string>
 </resources>

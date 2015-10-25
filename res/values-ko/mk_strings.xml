@@ -16,4 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="menu_exit">나가기</string>
+  <string name="pref_content_download_confirmation">다운로드 확인</string>
+  <string name="pref_content_download_confirmation_summary">다운로드를 시작 하기 전에 프롬프트 표시</string>
+  <string name="dialog_download_title">다운로드</string>
+  <string name="dialog_download_message">다운로드를 시작 하려면: \n%1$s\n\nFile 크기: %2$s</string>
 </resources>
