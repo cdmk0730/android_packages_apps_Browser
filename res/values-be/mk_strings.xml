@@ -15,9 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_exit">Afsluiten</string>
-  <string name="pref_content_download_confirmation">Download bevestiging</string>
-  <string name="pref_content_download_confirmation_summary">Toon een venster voor het starten van downloads</string>
-  <string name="dialog_download_title">Download</string>
-  <string name="dialog_download_message">Wilt u beginnen met het downloaden van:\n%1$s\n\nBestands grootte: %2$s</string>
+  <string name="menu_exit">Выхад</string>
+  <string name="pref_content_download_confirmation">Пацверджанне спампоўкi</string>
+  <string name="pref_content_download_confirmation_summary">Паказаць падказку перад пачаткам спампоўкi</string>
+  <string name="dialog_download_title">Спампаваць</string>
+  <string name="dialog_download_message">Вы хочаце спампаваць: \n%1$s\n\nПамер файла: %2$s</string>
 </resources>
