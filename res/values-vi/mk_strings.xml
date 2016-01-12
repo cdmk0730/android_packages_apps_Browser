@@ -15,9 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_exit">退出</string>
-  <string name="pref_content_download_confirmation">确认下载</string>
-  <string name="pref_content_download_confirmation_summary">在下载前提示</string>
-  <string name="dialog_download_title">下载</string>
-  <string name="dialog_download_message">开始下载:\n%1$s\n\n文件大小: %2$s</string>
+  <string name="menu_exit">Thoát</string>
+  <string name="pref_content_download_confirmation">Xác nhận tải về</string>
+  <string name="pref_content_download_confirmation_summary">Hiển thị một nhắc nhở trước khi bắt đầu tải về</string>
+  <string name="dialog_download_title">Tải về</string>
+  <string name="dialog_download_message">Bạn có muốn bắt đầu tải xuống: \n%1$s\n\nFile kích thước: %2$s</string>
 </resources>
