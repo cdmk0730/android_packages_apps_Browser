@@ -19,5 +19,5 @@
   <string name="pref_content_download_confirmation">Potwierdź pobieranie</string>
   <string name="pref_content_download_confirmation_summary">Pokaż informację przed rozpoczęciem pobierania</string>
   <string name="dialog_download_title">Pobierz</string>
-  <string name="dialog_download_message">Czy chcesz rozpocząć pobieranie: \n%1$s\n\nFile rozmiar: %2$s</string>
+  <string name="dialog_download_message">Czy chcesz rozpocząć pobieranie: \n%1$s\n\nRozmiar pliku: %2$s</string>
 </resources>
