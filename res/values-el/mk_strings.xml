@@ -16,4 +16,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="menu_exit">Έξοδος</string>
+  <string name="dialog_download_title">Λήψη αρχείου</string>
 </resources>

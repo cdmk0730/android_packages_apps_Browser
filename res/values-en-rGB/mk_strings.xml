@@ -15,9 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_exit">Sortir</string>
-  <string name="pref_content_download_confirmation">Descarregui confirmació</string>
-  <string name="pref_content_download_confirmation_summary">Mostrar un apuntador abans d\'iniciar les descàrregues</string>
-  <string name="dialog_download_title">Descarregar</string>
-  <string name="dialog_download_message">Voleu començar a descarregar: \n%1$s\n\nFile mida: %2$s</string>
+  <string name="menu_exit">Exit</string>
+  <string name="pref_content_download_confirmation">Download confirmation</string>
+  <string name="pref_content_download_confirmation_summary">Show a prompt before starting downloads</string>
+  <string name="dialog_download_title">Download</string>
+  <string name="dialog_download_message">Do you want to start downloading:\n%1$s\n\nFile size: %2$s</string>
 </resources>
