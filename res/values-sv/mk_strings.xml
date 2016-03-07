@@ -15,5 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Exit button -->
+  <!-- Download confirmation -->
   <string name="dialog_download_title">Hämta</string>
 </resources>

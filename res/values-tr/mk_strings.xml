@@ -15,7 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Exit button -->
   <string name="menu_exit">Çıkış</string>
+  <!-- Download confirmation -->
   <string name="pref_content_download_confirmation">Onayı indir</string>
   <string name="pref_content_download_confirmation_summary">İndirme işlemi başlamadan istemi göster</string>
   <string name="dialog_download_title">İndir</string>

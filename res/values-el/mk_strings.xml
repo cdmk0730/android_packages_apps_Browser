@@ -15,6 +15,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Exit button -->
   <string name="menu_exit">Έξοδος</string>
+  <!-- Download confirmation -->
+  <string name="pref_content_download_confirmation">Επιβεβαίωση λήψης</string>
+  <string name="pref_content_download_confirmation_summary">Εμφάνιση ερώτησης πριν από την έναρξη λήψεων</string>
   <string name="dialog_download_title">Λήψη αρχείου</string>
+  <string name="dialog_download_message">Θέλετε να ξεκινήσει η λήψη:\n%1$s\n\nΜέγεθος αρχείου: %2$s</string>
 </resources>

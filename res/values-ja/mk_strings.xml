@@ -15,5 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Exit button -->
   <string name="menu_exit">終了</string>
+  <!-- Download confirmation -->
 </resources>

@@ -15,7 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Exit button -->
   <string name="menu_exit">Выхад</string>
+  <!-- Download confirmation -->
   <string name="pref_content_download_confirmation">Пацверджанне спампоўкi</string>
   <string name="pref_content_download_confirmation_summary">Паказаць падказку перад пачаткам спампоўкi</string>
   <string name="dialog_download_title">Спампаваць</string>

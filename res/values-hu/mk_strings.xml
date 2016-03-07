@@ -15,7 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Exit button -->
   <string name="menu_exit">Kilépés</string>
+  <!-- Download confirmation -->
   <string name="pref_content_download_confirmation">Letöltés megerősítése</string>
   <string name="pref_content_download_confirmation_summary">Megerősítést kér a letöltés megkezdése előtt</string>
   <string name="dialog_download_title">Letöltés</string>

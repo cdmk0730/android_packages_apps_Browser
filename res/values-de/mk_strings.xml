@@ -15,7 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Exit button -->
   <string name="menu_exit">Verlassen</string>
+  <!-- Download confirmation -->
   <string name="pref_content_download_confirmation">Downloadbestätigung</string>
   <string name="pref_content_download_confirmation_summary">Eingabeaufforderung vor dem Herunterladen anzeigen</string>
   <string name="dialog_download_title">Herunterladen</string>
