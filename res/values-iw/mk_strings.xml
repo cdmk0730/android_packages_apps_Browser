@@ -18,5 +18,6 @@
   <!-- Exit button -->
   <string name="menu_exit">יציאה</string>
   <!-- Download confirmation -->
+  <string name="pref_content_download_confirmation">ההורדה אושרה</string>
   <string name="dialog_download_title">הורדה</string>
 </resources>
