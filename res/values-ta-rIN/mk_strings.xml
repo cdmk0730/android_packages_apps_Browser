@@ -16,5 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Exit button -->
+  <string name="menu_exit">வெளியேறுதல்</string>
   <!-- Download confirmation -->
+  <string name="pref_content_download_confirmation">பதிவிறக்க உறுதிப்படுத்தல்</string>
+  <string name="pref_content_download_confirmation_summary">இறக்கம் துவங்குவதற்கு முன், ஒரு வரியில் காட்டு</string>
+  <string name="dialog_download_title">பதிவிறக்கம்</string>
+  <string name="dialog_download_message">நீங்கள் பதிவிறக்கம் தொடங்க வேண்டுமா:\n%1$s\n\nகோப்பின் அளவு:%2$s</string>
 </resources>
