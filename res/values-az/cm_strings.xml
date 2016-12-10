@@ -21,12 +21,12 @@
   <string name="pref_content_ua">İstifadәçi agenti</string>
   <string name="pref_content_ua_summary">İstifadәçi agentini seçin</string>
   <string name="pref_lab_websockets">WebSockets</string>
-  <string name="pref_lab_websockets_summary">WebSockets\'i aktiv et</string>
+  <string name="pref_lab_websockets_summary">WebSockets\'i fəallaşdır</string>
   <string name="accessibility_button_homescreen">Əsas ekran</string>
   <string name="pref_security_site_whitelist_cookies">İzlәmәni azaldın. Çərəzlәri tez-tez silin</string>
   <string name="pref_security_site_whitelist_cookies_never">Heç vaxt silmә</string>
   <string name="pref_security_site_whitelist_cookies_only">Ağ siyahımda olmayan bütün saytlardan sil</string>
-  <string name="pref_security_site_whitelist_cookies_and_data">Bütün yerli saxlama yerlərindəki verilənlər bazasını da sil</string>
+  <string name="pref_security_site_whitelist_cookies_and_data">Bütün yerli saxlamadakı verilənlər bazasını da sil</string>
   <string name="pref_security_site_whitelist_cookies_verbose">Çərəz sayı</string>
   <string name="pref_security_site_whitelist_cookies_verbose_summary">Silinən və qalan çərəzlərin sayını göstər</string>
   <string name="site_cookies_whitelisted">Saytın çərəzlərini saxla</string>
